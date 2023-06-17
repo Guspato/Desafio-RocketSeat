@@ -1,14 +1,18 @@
+
 body {
   background: #ffffff;
   font-family: "Climate Crisis", cursive;
   font-family: "Inter", sans-serif;
   text-align: center;
-  margin: 0;
   margin-top: 64px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
 h1 span {
   color: #ee24ff;
+  font-weight: bold;
 }
 
 p {
@@ -25,15 +29,15 @@ p {
 
 #preços {
   color: #3f3d56;
+  font-weight: bold;
 }
 
 #pacotes {
   color: #3f3d56;
+  font-weight: bold;
 }
 
 #footer {
-  margin: auto;
-  margin-top: 64px;
   position: fixed;
   width: 1024px;
   height: 104px;
@@ -41,7 +45,8 @@ p {
   transform: translateX(-50%);
   bottom: 50px;
   text-align: center;
-  bottom: 200px; 
+  bottom: 200px;
+  margin-bottom: 0;
 }
 
 #footer a {
@@ -51,8 +56,11 @@ p {
   text-decoration: none;
   color: #3f3d56;
   font-size: 18px;
-  
+  box-sizing: border-box;
 }
 
-
-
+#wave {
+  width: 100%;
+  position: absolute;
+  bottom: 59px;
+}
